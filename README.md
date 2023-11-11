@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ruby "3.2.2"
+rails "7.0.8"
 
-Things you may want to cover:
+$ rails new practice --css=bootstrap
+***
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 練習
+- bootstrap 5
+- fields_for
+- gem "acts-as-taggable-on"
+- gem "bullet"
