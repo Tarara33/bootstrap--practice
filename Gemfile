@@ -28,6 +28,7 @@ gem "stimulus-rails"
 gem "cssbundling-rails"
 
 gem 'sorcery'
+gem 'acts-as-taggable-on'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 #gem "jbuilder"
 

@@ -21,6 +21,11 @@
     <%= form.text_area :body %>
   </div>
 
+  <div class="form-group form-group_tags">
+    <%= form.label :tag_list, "Tag", class: "form-label" %>
+    <%= form.text_field :tag_list, value: post.tag_list.join(","), class: "form-control", data: { role: "tagsinput" } %>
+  </div>
+
   <div>
     <%= form.submit %>
   </div>
