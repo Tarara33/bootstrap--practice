@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>挨拶</h1>
+    </div>
+  </div>
+
+  <div class="row m-3">
+  <turbo-frame id='hotwire-frame'>
+      <div class="col">
+        <h3>こんにちは</h3>
+        <p>これはお昼の挨拶です。</p>
+        <%= link_to 'こんばんは', goodnight_tops_path, class: 'btn btn-primary', data: { turbo_frame: 'hotwire-frame' } %>
+      </div>
+    </turbo-frame>
+  </div>
+</div>
